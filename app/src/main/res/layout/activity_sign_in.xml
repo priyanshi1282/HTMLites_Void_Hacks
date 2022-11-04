@@ -38,7 +38,8 @@
             android:hint="@string/enter_mobile_number"
             android:inputType="phone"
             android:paddingHorizontal="12dp"
-            android:textColorHint="@color/onyx" />
+            android:textColorHint="@color/onyx"
+            android:textColor="@color/erie_black"/>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/login_button"

@@ -49,6 +49,7 @@
             android:layout_marginTop="32dp">
 
             <LinearLayout
+                android:id="@+id/request_cleaning"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -72,6 +73,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/locate_dump_van"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -96,6 +98,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/locate_smart_bins"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -118,6 +121,7 @@
                     android:textColor="?attr/colorOnPrimary"/>
 
             </LinearLayout>
+
         </LinearLayout>
 
     </LinearLayout>

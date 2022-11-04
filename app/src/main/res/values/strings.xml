@@ -7,4 +7,7 @@
     <string name="request_area_cleaning">Request Area Cleaning</string>
     <string name="locate_dump_vans">Locate Dump Vans</string>
     <string name="locate_smart_bins">Locate Smart Bins</string>
+    <string name="request">Request</string>
+    <string name="area_cleaning">Area Cleaning</string>
+    <string name="name_hint">Enter your name</string>
 </resources>
