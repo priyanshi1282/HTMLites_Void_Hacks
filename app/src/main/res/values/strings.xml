@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">DigiBins</string>
     <string name="image">image</string>
+    <string name="enter_mobile_number">Enter mobile number</string>
+    <string name="search_hint">Search a place or landmark</string>
+    <string name="dumping_vans">Dumping vans</string>
+    <string name="request_area_cleaning">Request Area Cleaning</string>
+    <string name="locate_dump_vans">Locate Dump Vans</string>
+    <string name="locate_smart_bins">Locate Smart Bins</string>
 </resources>

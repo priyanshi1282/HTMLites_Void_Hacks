@@ -8,4 +8,9 @@
 
     <color name="white">#ffffff</color>
     <color name="black">#000000</color>
+
+    <color name="cerulean_crayola">#37A3D2</color>
+    <color name="sunray">#F4B860</color>
+    <color name="sea_green">#50B971</color>
+    <color name="brick_red">#C83E4D</color>
 </resources>
