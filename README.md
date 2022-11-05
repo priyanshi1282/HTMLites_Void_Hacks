@@ -15,11 +15,17 @@ Here the use of smart bins will take place, which will provide the info on the s
 <bold><strong>REQUEST AREA CLEANING</strong></bold><br>
 Here we will create a form for requesting the cleaning of the area and the location info will be sent to the Nagar Nigam department with the help of it.
 
+# Future Updates
+
+<bold><strong>Survey Form</strong></bold><br>In this section, the User can give a survey about the cleanliness of his area which will helpful for the Government to improve the cleanliness of that area.
+
+<bold><strong>Update in Request Area Cleaning</strong></bold><br>An update will be pushed in the Request Area Cleaning in which a ticket will be generated when requesting area cleaning, to track the request.
+
+
 # Tech-Stack🎓
 <img alt="android" src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white"/>
 <img alt="Kotlin" src="https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white"/>
 <img alt="Firebase" src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white"/>
-
 
 
 
