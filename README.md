@@ -28,4 +28,11 @@ Here we will create a form for requesting the cleaning of the area and the locat
 <img alt="Firebase" src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white"/>
 
 
+# Our Team
+<img src="https://github.com/priyanshi1282.png" width='100px'> <a href="https://github.com/priyanshi1282" target="_blank">Priyanshi Agrawal</a>
 
+<img src="https://github.com/prateekthakur272.png" width='100px'> <a href="https://github.com/prateekthakur272" target="_blank">Prateek Thakur</a>
+
+<img src="https://github.com/ravish036.png" width='100px'> <a href="https://github.com/ravish036" target="_blank">Ravish Satwani</a>
+
+<img src="https://github.com/sakshamgupta257.png" width='100px'> <a href="https://github.com/sakshamgupta257" target="_blank">Saksham Gupta</a>
