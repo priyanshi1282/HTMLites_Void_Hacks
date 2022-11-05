@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Toast
 
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,7 +16,12 @@ class LoginActivity : AppCompatActivity() {
         val mobileNumberInput:EditText = findViewById(R.id.phone_number_input)
 
         loginButton.setOnClickListener {
-            startActivity(Intent(this,MainActivity::class.java))
+            if (mobileNumberInput.text.toString().isNotBlank() and  (mobileNumberInput.text.toString().length == 10)) {
+                startActivity(Intent(this, MainActivity::class.java))
+                finish()
+            }else{
+                Toast.makeText(this,"Enter a valid mobile number",Toast.LENGTH_LONG).show()
+            }
         }
     }
 }

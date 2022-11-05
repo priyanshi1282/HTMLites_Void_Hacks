@@ -8,5 +8,10 @@ class LocateSmartBinActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_locate_smart_bin)
         supportActionBar?.title = "Locate Smart Bins"
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+    }
+    override fun onSupportNavigateUp(): Boolean {
+        finish()
+        return true
     }
 }

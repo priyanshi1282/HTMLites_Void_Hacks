@@ -8,5 +8,10 @@ class LocateDumpVanActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_locate_dump_van)
         supportActionBar?.title = "Locate Dumping Vans"
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+    }
+    override fun onSupportNavigateUp(): Boolean {
+        finish()
+        return true
     }
 }
