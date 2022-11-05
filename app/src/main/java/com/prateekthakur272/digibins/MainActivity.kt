@@ -3,6 +3,8 @@ package com.prateekthakur272.digibins
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.LinearLayout
 
 class MainActivity : AppCompatActivity() {
@@ -21,7 +23,24 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this,LocateSmartBinActivity::class.java))
         }
         locateDumpingVanButton.setOnClickListener {
-            startActivity(Intent(this,LocateDumpVanActivity::class.java))
+            startActivity(Intent(this,LocateActivity::class.java))
         }
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.main_menu,menu)
+        return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId){
+            R.id.about -> {
+                startActivity(Intent(this,AboutActivity::class.java))
+            }
+            R.id.logout -> {
+                finish()
+            }
+        }
+        return super.onOptionsItemSelected(item)
     }
 }

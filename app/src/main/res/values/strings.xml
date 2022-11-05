@@ -12,4 +12,7 @@
     <string name="name_hint">Enter your name</string>
     <string name="title_activity_maps">MapsActivity</string>
     <string name="title_activity_locate">LocateActivity</string>
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+    <string name="about_app">DIGIBins is a medium of communication between the people of the city (users) and government. It is a platform where users can track , request and find garbage vans for cleanliness purposes. Through this app every user can contribute their bit in this righteous act of ‘SWACHH BHARAT ABHIYAN’ initiated by our Hon’ble prime minister Shri Narenda Modi.</string>
 </resources>
